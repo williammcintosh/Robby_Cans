@@ -2,7 +2,7 @@
 
 ## Instructions on how to run the simulator
 
-![Click fullscreen button](https://raw.githubusercontent.com/williammcintosh/Robby_Cans/main/images/Robby_enlarge_button.png)
+<img src="https://raw.githubusercontent.com/williammcintosh/Robby_Cans/main/images/Robby_enlarge_button.png" alt="image" style="display:block;">
 
 while [running the simulator](https://bridgeworxgames.com/Robby_Cans/), if you notice that everything is all cluttered together, just click the full screen mode button on the bottom.
 
@@ -19,17 +19,15 @@ There are two graphs, one that represents Robby’s performance while he is trai
 
 #### Q-Table
 
-![QTable](https://github.com/williammcintosh/Robby_Cans/blob/main/images/Qtable_columns_rows.png)
+<img src="https://github.com/williammcintosh/Robby_Cans/blob/main/images/Qtable_columns_rows.png" alt="image" style="display:block;">
 
 #### Bellman's Equation
 
 That value that gets stored into (continuing the example from above) in coordinate (“12221”, North) would be the reward value as input into the Bellman’s equation, which is as follows:
 
-![QTable](https://github.com/williammcintosh/Robby_Cans/blob/main/images/Bellmans_equation.png?raw=true)
-
 <img src="https://github.com/williammcintosh/Robby_Cans/blob/main/images/Bellmans_equation.png?raw=true" alt="image" style="display:block;">
 
-![QTable](https://github.com/williammcintosh/Robby_Cans/blob/main/images/Robby_values.png?raw=true)
+<img src="https://github.com/williammcintosh/Robby_Cans/blob/main/images/Robby_values.png?raw=true" alt="image" style="display:block;">
 
 #### Environment Mapping
 
@@ -39,7 +37,7 @@ He examines what exists within those squares and stores the results in a string:
     *   1 is an empty tile floor
     *   2 is a can
 
-![Robby Mapping](https://github.com/williammcintosh/Robby_Cans/blob/main/images/Robby_mapping.png?raw=true)
+<img src="https://github.com/williammcintosh/Robby_Cans/blob/main/images/Robby_mapping.png?raw=true" alt="image" style="display:block;">
 
 #### Recording the States
 
@@ -54,13 +52,16 @@ Robby gets 0 points for walking, -1 for attempting to pick up a can when one doe
 
 ## Results
 
-![first 500 training](https://github.com/williammcintosh/Robby_Cans/blob/main/images/Robby_plot_first.png?raw=true)
+<img src="https://github.com/williammcintosh/Robby_Cans/blob/main/images/Robby_plot_first.png?raw=true" alt="image" style="display:block;">
 
-![second 500 training](https://github.com/williammcintosh/Robby_Cans/blob/main/images/Robby_plot_second.png?raw=true)
+<img src="https://github.com/williammcintosh/Robby_Cans/blob/main/images/Robby_plot_second.png?raw=true" alt="image" style="display:block;">
+
 
 After 1000 episodes, Robby received an average reward of -125 points with a standard deviation of 696 points for the first half, and -89 reward points with a standard deviation of 367 for the second 500 episodes. Though the plots on the second half seem at a glance to be more scattered they are actually much more condensed. The second graph has the worst result being -5747 points, while the first half has a worst scenario of -19936 points in a single episode. The tightened standard deviation in the second half as well as the significantly higher average score does show that Robby is learning from his experience.
 
-![minutes per episode chart](https://github.com/williammcintosh/Robby_Cans/blob/main/images/Minutes_per_episode.png?raw=true)
+![minutes per episode chart]()
+
+<img src="https://github.com/williammcintosh/Robby_Cans/blob/main/images/Minutes_per_episode.png?raw=true" alt="image" style="display:block;">
 
 The absolute best scenarios happened when the epsilon was around 0.04 for the first half, and 0.02 on the second.
 
