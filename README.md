@@ -19,7 +19,7 @@ There are two graphs, one that represents Robby’s performance while he is trai
 
 #### Q-Table
 
-![QTable](https://github.com/williammcintosh/Robby_Cans/blob/main/images/Qtable_columns_rows.png?raw=true)
+![QTable](https://github.com/williammcintosh/Robby_Cans/blob/main/images/Qtable_columns_rows.png)
 
 #### Bellman's Equation
 
