@@ -27,6 +27,8 @@ That value that gets stored into (continuing the example from above) in coordina
 
 ![QTable](https://github.com/williammcintosh/Robby_Cans/blob/main/images/Bellmans_equation.png?raw=true)
 
+<img src="https://github.com/williammcintosh/Robby_Cans/blob/main/images/Bellmans_equation.png?raw=true" alt="image" style="display:block;">
+
 ![QTable](https://github.com/williammcintosh/Robby_Cans/blob/main/images/Robby_values.png?raw=true)
 
 #### Environment Mapping
