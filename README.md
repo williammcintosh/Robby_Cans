@@ -59,8 +59,6 @@ Robby gets 0 points for walking, -1 for attempting to pick up a can when one doe
 
 After 1000 episodes, Robby received an average reward of -125 points with a standard deviation of 696 points for the first half, and -89 reward points with a standard deviation of 367 for the second 500 episodes. Though the plots on the second half seem at a glance to be more scattered they are actually much more condensed. The second graph has the worst result being -5747 points, while the first half has a worst scenario of -19936 points in a single episode. The tightened standard deviation in the second half as well as the significantly higher average score does show that Robby is learning from his experience.
 
-![minutes per episode chart]()
-
 <img src="https://github.com/williammcintosh/Robby_Cans/blob/main/images/Minutes_per_episode.png?raw=true" alt="image" style="display:block;">
 
 The absolute best scenarios happened when the epsilon was around 0.04 for the first half, and 0.02 on the second.
